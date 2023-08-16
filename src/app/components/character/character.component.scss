@@ -1,0 +1,32 @@
+.character-card {
+    margin: 0 auto;
+    width: 80%;
+    -webkit-box-shadow: -1px 8px 26px 0px rgba(222, 226, 228, 1);
+    -moz-box-shadow: -1px 8px 26px 0px rgba(222, 226, 228, 1);
+    box-shadow: -1px 8px 26px 0px rgba(222, 226, 228, 1);
+    border-radius: 5px;
+  }
+  
+
+.character-card a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+
+.character-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+   
+  
+@media (max-width: 640px) {
+    .character-card {
+      width: 90%;
+    }
+}
+  

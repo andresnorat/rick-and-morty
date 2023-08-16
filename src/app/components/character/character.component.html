@@ -1,0 +1,9 @@
+<div class="character-card">
+    <a [routerLink]="['/character',character.id]">
+        <app-img [img]="character.image"></app-img>
+        <div class="character-info">
+            <p>{{character.name}}</p>
+            <p>{{character.status}} {{character.status === 'Alive' ? '💚' : '☠️'}}</p>
+        </div>
+    </a>
+</div>
