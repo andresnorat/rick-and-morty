@@ -13,6 +13,7 @@ import { LocationComponent } from './pages/location/location.component';
 import { NavComponent } from './components/nav/nav.component';
 import { LocationDetailComponent } from './pages/location-detail/location-detail.component';
 import { EpisodeComponent } from './pages/episode/episode.component';
+import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { EpisodeComponent } from './pages/episode/episode.component';
     LocationComponent,
     NavComponent,
     LocationDetailComponent,
-    EpisodeComponent
+    EpisodeComponent,
+    EpisodesDetailComponent
   ],
   imports: [
     BrowserModule,

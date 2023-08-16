@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute,  } from '@angular/router';
 import { switchMap } from 'rxjs';
-import { Character } from 'src/app/models/character.model';
 import { Location } from '@angular/common';
 import { LocationService } from 'src/app/services/location.service';
 import { LocationModel } from 'src/app/models/location.model';

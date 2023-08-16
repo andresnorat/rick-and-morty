@@ -5,6 +5,7 @@ import { CharacterDetailComponent } from './pages/character-detail/character-det
 import { LocationComponent } from './pages/location/location.component';
 import { LocationDetailComponent } from './pages/location-detail/location-detail.component';
 import { EpisodeComponent } from './pages/episode/episode.component';
+import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
     path:'episode',
     component: EpisodeComponent
   },
+  {
+    path:'episode/:id',
+    component: EpisodesDetailComponent
+  }
 
 ];
 
