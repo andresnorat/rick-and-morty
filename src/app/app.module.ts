@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { CharacterComponent } from './components/character/character.component';
 import { CharactersComponent } from './components/characters/characters.component';
 import { ImgComponent } from './components/img/img.component';
+import { CharacterDetailComponent } from './pages/character-detail/character-detail.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ImgComponent } from './components/img/img.component';
     HomeComponent,
     CharacterComponent,
     CharactersComponent,
-    ImgComponent
+    ImgComponent,
+    CharacterDetailComponent
   ],
   imports: [
     BrowserModule,

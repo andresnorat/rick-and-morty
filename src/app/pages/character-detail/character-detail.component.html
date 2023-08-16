@@ -1,0 +1,19 @@
+<div class="page-character">
+    <p *ngIf="statusDetailCharacters === 'loading'">Loading...</p>
+    <div class="detail" *ngIf="character">
+      <div class="gallery">
+        <app-img [img]="character.image"></app-img>
+      </div>
+      <div class="about-character">
+        <h1>{{ character.name }}</h1>
+        <p>{{ character.species }}</p>
+        <p>{{ character.gender }}</p>
+        <p>{{ character.origin.name }}</p>
+        <p>{{character.status}} {{character.status === 'Alive' ? '💚' : '☠️'}}</p>
+        <div class="btn-back">
+          <button (click)="goToBack()">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

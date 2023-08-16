@@ -8,7 +8,6 @@ import { Character } from 'src/app/models/character.model';
 })
 export class CharactersComponent {
 
-  statusDetailProduct: 'loading' | 'success' | 'error' | 'init' = 'init';
   showDetailProduct = false;
   @Input()characters: Character[] = [];
 
