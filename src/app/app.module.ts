@@ -14,6 +14,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { LocationDetailComponent } from './pages/location-detail/location-detail.component';
 import { EpisodeComponent } from './pages/episode/episode.component';
 import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail
     NavComponent,
     LocationDetailComponent,
     EpisodeComponent,
-    EpisodesDetailComponent
+    EpisodesDetailComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
