@@ -1,0 +1,11 @@
+<div class="episode--grid">
+    <div  class="episode-card" *ngFor="let episode of episodes">
+        <a [routerLink]="['/episode',episode.id]">
+            <app-img [img]="episodeImg"></app-img>
+            <h3>{{episode.name}}</h3>
+            <ul>
+                <li> {{episode.episode}}</li>
+            </ul>
+        </a>
+    </div> 
+</div>

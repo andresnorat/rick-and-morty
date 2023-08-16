@@ -1,0 +1,13 @@
+.episode--grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 335px);
+    gap: 26px;
+    place-content: center;
+
+  }
+  
+  .episode-card ul, li, a {
+    text-decoration: none;
+    color: black;
+  }
