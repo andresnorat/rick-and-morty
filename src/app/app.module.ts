@@ -9,6 +9,7 @@ import { CharacterComponent } from './components/character/character.component';
 import { CharactersComponent } from './components/characters/characters.component';
 import { ImgComponent } from './components/img/img.component';
 import { CharacterDetailComponent } from './pages/character-detail/character-detail.component';
+import { LocationComponent } from './pages/location/location.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CharacterDetailComponent } from './pages/character-detail/character-det
     CharacterComponent,
     CharactersComponent,
     ImgComponent,
-    CharacterDetailComponent
+    CharacterDetailComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

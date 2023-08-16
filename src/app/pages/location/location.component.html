@@ -1,0 +1,9 @@
+<div class="location--grid">
+    <div  *ngFor="let items of locations">
+        <app-img [img]="planet"></app-img>
+        <h3>{{items.name}}</h3>
+        <ul>
+            <li> {{items.type}}</li>
+        </ul>
+    </div> 
+</div>

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output,  } from '@angular/core';
 import { Character } from 'src/app/models/character.model';
-import { CharacterService } from 'src/app/servies/character.service';
+import { CharacterService } from 'src/app/services/character.service';
 
 @Component({
   selector: 'app-home',
