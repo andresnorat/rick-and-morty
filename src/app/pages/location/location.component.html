@@ -1,9 +1,11 @@
 <div class="location--grid">
-    <div  *ngFor="let items of locations">
-        <app-img [img]="planet"></app-img>
-        <h3>{{items.name}}</h3>
-        <ul>
-            <li> {{items.type}}</li>
-        </ul>
+    <div  class="location-card" *ngFor="let location of locations">
+        <a [routerLink]="['/location',location.id]">
+            <app-img [img]="planet"></app-img>
+            <h3>{{location.name}}</h3>
+            <ul>
+                <li> {{location.type}}</li>
+            </ul>
+        </a>
     </div> 
 </div>

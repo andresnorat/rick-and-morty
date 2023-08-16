@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { LocationService } from 'src/app/services/location.service';
-import { Location } from 'src/app/models/location.model';
+import { LocationModel } from 'src/app/models/location.model';
 
 @Component({
   selector: 'app-location',
@@ -10,7 +10,7 @@ import { Location } from 'src/app/models/location.model';
 export class LocationComponent {
 
   planet= "https://c4.wallpaperflare.com/wallpaper/519/777/177/rick-and-morty-space-wallpaper-preview.jpg"
-  locations:Location[] = [{
+  locations:LocationModel[] = [{
     id: 0,
     name: '',
     created: '',

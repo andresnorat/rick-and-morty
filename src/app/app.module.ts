@@ -10,6 +10,8 @@ import { CharactersComponent } from './components/characters/characters.componen
 import { ImgComponent } from './components/img/img.component';
 import { CharacterDetailComponent } from './pages/character-detail/character-detail.component';
 import { LocationComponent } from './pages/location/location.component';
+import { NavComponent } from './components/nav/nav.component';
+import { LocationDetailComponent } from './pages/location-detail/location-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { LocationComponent } from './pages/location/location.component';
     CharactersComponent,
     ImgComponent,
     CharacterDetailComponent,
-    LocationComponent
+    LocationComponent,
+    NavComponent,
+    LocationDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,16 @@
+<div class="page-character">
+    <p *ngIf="statusDetailCharacters === 'loading'">Loading...</p>
+    <div class="detail" *ngIf="locationCharacters">
+      <div class="about-character">
+        <h1>{{ locationCharacters.name }}</h1>
+        <p>{{ locationCharacters.type }}</p>
+        <p>{{ locationCharacters.dimension }}</p>
+        <a [routerLink]="['/character', residentOne]">Residente 1 🙋</a>
+        <a [routerLink]="['/character', residentOne]">Residente 2 🙋‍♀️</a>
+        <div class="btn-back">
+          <button (click)="goToBack()">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
