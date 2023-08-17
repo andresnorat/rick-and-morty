@@ -1,3 +1,7 @@
-<input type="search" [formControl]="searchField">
+<div class="search">
+    <input type="search" [formControl]="searchField" autofocus placeholder="Search...">
+</div>
+<div class="error">
+    <p *ngIf="statusSearch === 'error'">{{errorMesssage}}</p>
+</div>
 <app-characters [characters]="characters"></app-characters>
-<p>{{errorMesssage}}</p>
