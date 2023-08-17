@@ -17,6 +17,7 @@ import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { SearchComponent } from './components/search/search.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FilterComponent } from './components/filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     EpisodeComponent,
     EpisodesDetailComponent,
     NotFoundComponent,
-    SearchComponent
+    SearchComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,

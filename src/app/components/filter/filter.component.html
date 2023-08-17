@@ -1,0 +1,10 @@
+<div class="filter">
+    <select (change)="filterByCategory()" [formControl]="optionFilter">
+        <option value="" disabled [selected]="!opcionSeleccionada">Categorias</option>
+        <option value="All">All</option>
+        <option value="Male">Male</option>
+        <option value="Dead">Dead</option>
+        <option value="Human">Human</option>
+    </select>
+</div>
+<app-characters [characters]="filteredItems"></app-characters>
