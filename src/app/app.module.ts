@@ -15,6 +15,8 @@ import { LocationDetailComponent } from './pages/location-detail/location-detail
 import { EpisodeComponent } from './pages/episode/episode.component';
 import { EpisodesDetailComponent } from './pages/episodes-detail/episodes-detail.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { SearchComponent } from './components/search/search.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,14 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     LocationDetailComponent,
     EpisodeComponent,
     EpisodesDetailComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
